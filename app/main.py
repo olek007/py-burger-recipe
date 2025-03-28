@@ -64,3 +64,6 @@ class BurgerRecipe:
         self.cutlets = cutlets
         self.eggs = eggs
         self.sauce = sauce
+
+
+burger = BurgerRecipe(*[2, 0, 0, 1, 0, "ketchup"])
